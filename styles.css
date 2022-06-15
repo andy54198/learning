@@ -1,7 +1,18 @@
 * {
-    color:rgb(255, 255, 255);
+    background-color:rgb(227, 238, 255);
 }
 
-body {
-    background-color: purple
+p {
+    color: purple;
+    font-family: 'Poppins', sans-serif;
 }
+
+h1 {
+    color: red;
+    font-family: 'Poppins', sans-serif;
+}
+
+h6 {
+    font-size: 60px;
+}
+
