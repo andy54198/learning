@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+h1 {
+    color: rgb(114, 179, 216);
+    transform: skew(12deg);
+    font-family: 'Signika Negative', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: 'Poppins', sans-serif;
+}
