@@ -1,0 +1,21 @@
+* {
+    background-color:rgb(227, 238, 255);
+}
+
+p {
+    color: purple;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    transform:skew(-12deg)
+    color: red;
+    font-family: 'Poppins', sans-serif;
+}
+
+h6 {
+    font-size: 60px;
+}
+
+
+
