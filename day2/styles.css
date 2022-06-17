@@ -1,14 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 
 h1 {
     color: rgb(114, 179, 216);
-    transform: skew(12deg);
-    font-family: 'Signika Negative', sans-serif;
+    font: normal 50px Signika Negative, sans-serif;
 }
 
 body {
     background-color: #f4f4f4;
-    color: #555555;
+    color: #1d5847;
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    /* line height is spacing between lines, duh*/
+    line-height: 1.6em;
+    margin:0;
+}
+/* the first sample*/
+.container{
+width: 80%;
+margin: auto;
+}
+
+.box-1 {
+    margin-top: 10%;
+    background-color: #333;
+    color: white;
+    padding:20px 20px 20px 20px;
+    transform: skew(12deg);
+    font-weight: bold;
+    box-shadow: 4px 3px 0 #7A7A7A;
+}
+/* the second sample*/
+.box-2{
+    margin-top: 10%;
+    padding:20px 20px 20px 20px;
+    background-color: beige;
+    color:rgb(92, 136, 175);
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+.container2{
+    width: 80%;
+    margin: auto;
+}
+/* the third sample*/
+.Menu{
+    margin-left: 10%;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    border: 1px #ccc solid;
+    border-radius: 15px;
+    width: 80%;
+    box-shadow: 0px 0px 10px #333;
+}
+
+.Menu h2{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.Menu ul{
+    text-align: left;
+    margin-left: 5%;
+}
+
+.Menu li {
+    padding-bottom: 1px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('../day2/assets/check1.png');
+}
+
+a {
+    text-decoration: none;
+    color: #8E5CFF;
+}
+
+a:hover {
+    color:red;
+}
+
+a:active {
+    color:green;
+}
+
+a:visited {
+    color:#5a4370
 }
