@@ -25,6 +25,13 @@ width: 80%;
 margin: auto;
 }
 
+.button {
+    background-color: #333;
+    color: #f4f4f4;
+    padding:10px 15px;
+    border: none;
+}
+
 .box-1 {
     margin-top: 10%;
     background-color: #333;
@@ -88,5 +95,27 @@ a:active {
 }
 
 a:visited {
-    color:#5a4370
+    color:#5a4370;
 }
+
+.container3 {
+    margin-top: 10%;
+}
+
+.my-forms {
+    padding: 20px;
+}
+
+.my-forms .form-group {
+    padding-bottom:5px;
+}
+
+.my-forms label {
+    display:block
+}
+
+.my-forms input[type="text"], .my-forms input[type="email"], .my-forms textarea {
+    padding: 8px;
+    width: 100%;
+}
+
