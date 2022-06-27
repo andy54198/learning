@@ -88,3 +88,7 @@
     display:block;
     color: #fff;
 }
+
+.tabcontent{
+    display:none;
+}
